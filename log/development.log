@@ -40,3 +40,228 @@ Processing by PostsController#show as HTML
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/show.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 27ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-18 04:44:42.369708"], ["updated_at", "2020-07-18 04:44:42.369708"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Regional Group Administrator"], ["description", "Harum placeat doloribus et molestiae deserunt similique consequatur. Quidem sequi consequatur consequatur expedita. Est in aut exercitationem ut vel eum quod et. Rerum fugit alias ducimus adipisci at tempore fugiat minima. Et quia ut rerum et repellendus. Blanditiis eum quis laborum a voluptatibus saepe ad."], ["created_at", "2020-07-18 04:44:51.531543"], ["updated_at", "2020-07-18 04:44:51.531543"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Executive"], ["description", "Ratione facilis et rerum quae non consectetur sunt. Alias qui illum ratione alias fugiat commodi assumenda. Illo cupiditate nihil. Beatae qui ipsam odio omnis magni cumque earum culpa. Possimus accusantium sunt quod praesentium similique est repellat. Sint id reprehenderit quis nam placeat unde dicta."], ["created_at", "2020-07-18 04:44:51.535187"], ["updated_at", "2020-07-18 04:44:51.535187"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Dynamic"], ["description", "Aut sapiente quia consequatur aut voluptates eum. Temporibus voluptate rerum consequatur eligendi atque. Harum rem sapiente cumque quia quia et illo vitae. Sunt qui aliquam totam delectus nobis quibusdam dolor atque sunt. Laudantium cumque doloremque culpa nihil nulla doloribus molestiae non commodi. Perferendis deserunt qui.\n \nConsequuntur labore doloremque totam sit nihil ut sit sint. Quos doloremque impedit dolores rerum eum porro rem ipsam porro. Numquam nemo laboriosam laboriosam dolor explicabo consectetur. Quis quia in rerum sit est.\n \nEos ipsam id et ratione eveniet nostrum. Dolore tempora iste asperiores earum numquam. Consequatur maiores ut assumenda omnis."], ["created_at", "2020-07-18 04:44:51.537348"], ["updated_at", "2020-07-18 04:44:51.537348"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Global"], ["description", "Molestias deleniti nulla et."], ["created_at", "2020-07-18 04:44:51.539262"], ["updated_at", "2020-07-18 04:44:51.539262"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Supervisor Response"], ["description", "Nesciunt ipsam quidem quis voluptas dolores iure esse consequatur. Esse harum laborum. Assumenda dolore autem. Atque omnis voluptatem natus totam veniam placeat consequatur. Consequatur perspiciatis necessitatibus culpa labore magni. Iste nisi odio autem qui."], ["created_at", "2020-07-18 04:44:51.541088"], ["updated_at", "2020-07-18 04:44:51.541088"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-07-18 00:45:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 25ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2020-07-18 00:45:58 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 434ms (Views: 426.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2020-07-18 00:46:26 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for ::1 at 2020-07-18 00:46:37 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for ::1 at 2020-07-18 00:59:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.2ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_post' for #<#<Class:0x00007fcd312ae1e8>:0x00007fcd312a75c8>
+Did you mean?  new_post_url):
+    4:   <br>
+    5: <% end %>
+    6: 
+    7: <%= button_to 'Posts', new_post, method: :get%>
+  
+app/views/posts/index.html.erb:7:in `_app_views_posts_index_html_erb___4348865656672274408_70259634960180'
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.3ms)
+Started GET "/posts" for ::1 at 2020-07-18 00:59:57 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (38.0ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_post' for #<#<Class:0x00007fcd312ae1e8>:0x00007fcd30a94b88>
+Did you mean?  new_post_url):
+    4:   <br>
+    5: <% end %>
+    6: 
+    7: <%= button_to 'posts', new_post, method: :get%>
+  
+app/views/posts/index.html.erb:7:in `_app_views_posts_index_html_erb___4348865656672274408_70259630713420'
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.7ms)
+Started GET "/posts" for ::1 at 2020-07-18 01:00:06 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (56.2ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_post' for #<#<Class:0x00007fcd312ae1e8>:0x00007fcd31485570>
+Did you mean?  new_post_url):
+    4:   <br>
+    5: <% end %>
+    6: 
+    7: <%= button_to 'post', new_post, method: :get%>
+  
+app/views/posts/index.html.erb:7:in `_app_views_posts_index_html_erb___4348865656672274408_70259635924720'
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+Started GET "/posts" for ::1 at 2020-07-18 01:01:27 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.1ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_post' for #<#<Class:0x00007fcd312ae1e8>:0x00007fcd33a24470>
+Did you mean?  new_post_url):
+    4:   <br>
+    5: <% end %>
+    6: 
+    7: <%= button_to 'post/new', new_post, method: :get%>
+  
+app/views/posts/index.html.erb:7:in `_app_views_posts_index_html_erb___4348865656672274408_70259655649660'
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/netalyramirez/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+Started GET "/posts" for ::1 at 2020-07-18 01:02:09 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 207ms (Views: 205.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-07-18 01:02:11 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-07-18 01:02:32 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nthxqcssdqUdSwsEZyL+dIhKdIN2bliQpMYjDqlOeG3BThH8wP+uMcxzzPTv/Ei31AmfasAASCWTN6voUq4srw==", "title"=>"America", "description"=>"Is going to go through a revolution\r\n", "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "America"], ["description", "Is going to go through a revolution\r\n"], ["created_at", "2020-07-18 05:02:32.975140"], ["updated_at", "2020-07-18 05:02:32.975140"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/posts.7
+Completed 302 Found in 7ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/posts.7" for ::1 at 2020-07-18 01:02:33 -0400
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.7" for ::1 at 2020-07-18 01:03:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as 
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 258ms (Views: 245.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-07-18 01:03:43 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-07-18 01:03:57 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xn70727jWyfWkkZR7xfkux9YEooC9cnIkyachLWmgPOZ6JS6ZTCDsweqgaFnyVJ4Qxv5Y7Sb2X2k1xRiTkbUMQ==", "title"=>"this is great", "description"=>"i thought about this long and hard", "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "this is great"], ["description", "i thought about this long and hard"], ["created_at", "2020-07-18 05:03:57.875484"], ["updated_at", "2020-07-18 05:03:57.875484"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/posts/8
+Completed 302 Found in 6ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/posts/8" for ::1 at 2020-07-18 01:03:57 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+

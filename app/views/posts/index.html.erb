@@ -1,3 +1,7 @@
+<h1>Post titles</h1>
 <% @posts.each do |post| %>
   <div><%= post.title %></div>
+  <br>
 <% end %>
+<br>
+<%= button_to 'New Post', new_post_path, method: :get%>

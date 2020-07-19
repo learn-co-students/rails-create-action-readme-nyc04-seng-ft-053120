@@ -5,6 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Post.delete_all
+
 
 Post.create(
     [
@@ -29,3 +31,5 @@ Eos ipsam id et ratione eveniet nostrum. Dolore tempora iste asperiores earum nu
         }
     ]
 )
+
+puts "seeded :Ds"

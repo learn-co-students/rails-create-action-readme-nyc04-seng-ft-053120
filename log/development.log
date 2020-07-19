@@ -265,3 +265,64 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 20ms (Views: 15.9ms | ActiveRecord: 0.2ms)
 
 
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Regional Group Administrator"], ["description", "Harum placeat doloribus et molestiae deserunt similique consequatur. Quidem sequi consequatur consequatur expedita. Est in aut exercitationem ut vel eum quod et. Rerum fugit alias ducimus adipisci at tempore fugiat minima. Et quia ut rerum et repellendus. Blanditiis eum quis laborum a voluptatibus saepe ad."], ["created_at", "2020-07-19 16:11:40.448424"], ["updated_at", "2020-07-19 16:11:40.448424"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Executive"], ["description", "Ratione facilis et rerum quae non consectetur sunt. Alias qui illum ratione alias fugiat commodi assumenda. Illo cupiditate nihil. Beatae qui ipsam odio omnis magni cumque earum culpa. Possimus accusantium sunt quod praesentium similique est repellat. Sint id reprehenderit quis nam placeat unde dicta."], ["created_at", "2020-07-19 16:11:40.452485"], ["updated_at", "2020-07-19 16:11:40.452485"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Dynamic"], ["description", "Aut sapiente quia consequatur aut voluptates eum. Temporibus voluptate rerum consequatur eligendi atque. Harum rem sapiente cumque quia quia et illo vitae. Sunt qui aliquam totam delectus nobis quibusdam dolor atque sunt. Laudantium cumque doloremque culpa nihil nulla doloribus molestiae non commodi. Perferendis deserunt qui.\n \nConsequuntur labore doloremque totam sit nihil ut sit sint. Quos doloremque impedit dolores rerum eum porro rem ipsam porro. Numquam nemo laboriosam laboriosam dolor explicabo consectetur. Quis quia in rerum sit est.\n \nEos ipsam id et ratione eveniet nostrum. Dolore tempora iste asperiores earum numquam. Consequatur maiores ut assumenda omnis."], ["created_at", "2020-07-19 16:11:40.455168"], ["updated_at", "2020-07-19 16:11:40.455168"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Global"], ["description", "Molestias deleniti nulla et."], ["created_at", "2020-07-19 16:11:40.458930"], ["updated_at", "2020-07-19 16:11:40.458930"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Supervisor Response"], ["description", "Nesciunt ipsam quidem quis voluptas dolores iure esse consequatur. Esse harum laborum. Assumenda dolore autem. Atque omnis voluptatem natus totam veniam placeat consequatur. Consequatur perspiciatis necessitatibus culpa labore magni. Iste nisi odio autem qui."], ["created_at", "2020-07-19 16:11:40.461434"], ["updated_at", "2020-07-19 16:11:40.461434"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Started GET "/posts" for ::1 at 2020-07-19 12:19:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 235ms (Views: 223.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/new" for ::1 at 2020-07-19 12:19:54 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2020-07-19 12:20:02 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+oyiKWok1Nv/CwEBJ7xlV+jTGmIkjeYWRzydMJj7naClGsJ8YfcMTy4zxvGvYtOUtJDxi5Lj9qNwzRXWYxvJYg==", "title"=>"I love this", "description"=>"this is great\r\n", "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "I love this"], ["description", "this is great\r\n"], ["created_at", "2020-07-19 16:20:02.962417"], ["updated_at", "2020-07-19 16:20:02.962417"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/posts/14
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/14" for ::1 at 2020-07-19 12:20:02 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
